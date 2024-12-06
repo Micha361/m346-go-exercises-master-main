@@ -13,7 +13,7 @@ type Class struct {
 
 func main() {
 	c1 := Class{[]Student{{"Diego", "maroni"}, {"Arber", "Schneider"}, {"Lara", "Weber"}}}
-	c2 := Class{[]Student{{"Max", "Koch"}, {"Michael", "Lehmann"}, {"Paul", "Schmidt"}}}
+	c2 := Class{[]Student{{"Max", "Koch"}, {"Lehman", "Alischa"}, {"Lehman", "Alischa"}}}
 
 	m := map[int][]Class{
 		101: {c1},
