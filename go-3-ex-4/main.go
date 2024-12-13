@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 const (
-	Diamonds = '\u25c6' // Karo
-	Spades   = '\u2660' // Pik
-	Clubs    = '\u2663' // Kreuz
-	Hearts   = '\u2665' // Herz
+	Diamonds = '\u25c6' 
+	Spades   = '\u2660'
+	Clubs    = '\u2663' 
+	Hearts   = '\u2665'
 
 	Six   = '\u2465'
 	Seven = '\u2466'
@@ -23,8 +23,6 @@ func main() {
 	suits := []rune{Diamonds, Spades, Clubs, Hearts}
 	ranks := []rune{Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace}
 
-	// TODO: Loop over suits and ranks to output all combinations.
 
-	// TODO: delete this line afterwards
 	fmt.Println(suits, ranks)
 }
